@@ -30,6 +30,10 @@ def multiply(x,y):
 def main():
   print(multiply(int(input("num1 ")),int(input("num2 "))))
 
+
+# This is GPT4 generated code, I took from it the `n // 2` notion.
+# Previously I was using `int(n/2)` but this resulted in some
+# incorrect splitting.
 def karatsuba(x, y):
     """
     Multiply two integers using Karatsuba algorithm.
